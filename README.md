@@ -1,7 +1,7 @@
 # Basic NodeJs
 Wellcome to my program
 # …or create a new repository on the command line
-echo "# abc" >> README.md
+<p>echo "# abc" >> README.md</p>
 git init
 git add README.md
 git commit -m "first commit"
