@@ -1,0 +1,11 @@
+
+.header {
+    text-align: center;
+    color: red;
+
+}
+
+.header::after {
+    content: "Wellcome to my program.";
+
+}
