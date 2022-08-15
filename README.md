@@ -1,6 +1,9 @@
 # Basic NodeJs
 Wellcome to my program
 <hr>
+<h2>Note: </h2>
+ <p>sử dụng nodeJs</p>
+
 <h2>…or create a new repository on the command line</h2>
 <p>echo "# abc" >> README.md</p>
 <p>git init</p>
