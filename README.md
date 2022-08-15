@@ -2,17 +2,17 @@
 Wellcome to my program
 # …or create a new repository on the command line
 <p>echo "# abc" >> README.md</p>
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/nguyenvangithub/abc.git
-git push -u origin main
+<p>git init</p>
+<p>git add README.md</p>
+<p>git commit -m "first commit"</p>
+<p>git branch -M main</p>
+<p>git remote add origin https://github.com/nguyenvangithub/abc.git</p>
+<p>git push -u origin main</p>
 # …or push an existing repository from the command line
-git remote add origin https://github.com/nguyenvangithub/abc.git
-git branch -M main
-git push -u origin main
+<p>git remote add origin https://github.com/nguyenvangithub/abc.git</p>
+<p>git branch -M main</p>
+<p>git push -u origin main</p>
 # …or import code from another repository
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+<p>You can initialize this repository with code from a Subversion, Mercurial, or TFS project.</p>
 
 
