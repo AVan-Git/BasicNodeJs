@@ -1,1 +1,1 @@
-abc
+express --view=ejs mod2-js-express
