@@ -3,10 +3,10 @@ var router = express.Router();
 
 
 router.get('/', function(req, res, next) {
-    res.render('items/list', { title: 'list page' });
+    res.render('pages/items/list', { title: 'list-item page ' , titlePage:'Item-list Page'});
     });
 router.get('/add', function(req, res, next) {
-    res.render('items/add', { title: 'add Page' });
+    res.render('pages/items/add', { title: 'add-item Page' , titlePage:'add-item Page' });
     }); 
 
 
