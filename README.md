@@ -10,6 +10,9 @@ Wellcome to my program
 # web 
 expressjs.com
 
+# mod2-js-express
+![<Ảnh mẫu mod2-js-express>](nodeJs_ZendVN/mod2-js-express/public/img/web-mau.jpg)
+
 <h2>…or create a new repository on the command line</h2>
 <p>echo "# abc" >> README.md</p>
 <p>git init</p>
