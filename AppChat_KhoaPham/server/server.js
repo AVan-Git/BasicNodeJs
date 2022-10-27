@@ -29,6 +29,22 @@ io.on('connection', function (socket) {
         io.sockets.emit('server-send-data', "data = " + data )
     })
 
+    // lang nghe mr2 guir ve server
+    socket.on('client-send-data-2', function (data) {
+        console.log(socket.id , " data-2 - ", data);
+
+        //server guir ve chinh user hiên tại
+        socket.emit('server-send-data', "data = " + data )
+    })
+
+    // lang nghe mr3 guir ve server
+    socket.on('client-send-data-3', function (data) {
+        console.log(socket.id , " data-3 - ", data);
+
+        //server guir all user khac khong tra ve user dang gui
+        socket.broadcast.emit('server-send-data', "data = " + data )
+    })
+
 })
 
 app.get('/', (req, res) => {

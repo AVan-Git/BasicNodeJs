@@ -16,7 +16,10 @@
 <body>
     <h1 id="title">Wellcome to my project</h1>
     <hr>
-    <button id="mrA">Click send</button>
+    <input type="text" name="" id="txtText" value="abc ">
+    <button id="mrA">Click send gui All</button>
+    <button id="mr2">Click send gui 0</button>
+    <button id="mr3">Click send gui All trừ user</button>
     <h2 id="noidung">
 
     </h2>
@@ -28,13 +31,31 @@
         // goi len server
         let socket = io('http://localhost:8000');
 
+       
         $(document).ready(function () {
             // alert('hello'); 
 
             // sk click mrA
-            $("#mrA").click(function () {
-                socket.emit("Client_send-data", "hello");
+            $("#mrA").click(function () { 
+                let txtText = document.getElementById('txtText').value;
+
+                socket.emit("Client_send-data", txtText);
             })
+
+            // sk click mr2
+            $("#mr2").click(function () {
+                let txtText = document.getElementById('txtText').value;
+
+                socket.emit("client-send-data-2", txtText);
+            })
+            
+            // sk click mr3
+            $("#mr3").click(function () {
+                let txtText = document.getElementById('txtText').value;
+
+                socket.emit("client-send-data-3", txtText);
+            })
+            
 
         })
         // user nang nghe user gửi
