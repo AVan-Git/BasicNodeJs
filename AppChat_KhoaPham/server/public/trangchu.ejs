@@ -8,10 +8,18 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="index.css">
+    <style>
+        
+    </style>
 </head>
 
 <body>
-    hello
+    <h1 id="title">Wellcome to my project</h1>
+    <hr>
+    <button id="mrA">Click send</button>
+    <h2 id="noidung">
+
+    </h2>
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="socket.io/socket.io.js"></script>
@@ -23,7 +31,17 @@
         $(document).ready(function () {
             // alert('hello'); 
 
+            // sk click mrA
+            $("#mrA").click(function () {
+                socket.emit("Client_send-data", "hello");
+            })
+
         })
+        // user nang nghe user gửi
+        socket.on('server-send-data', function (data) {
+            $('#noidung').append(data + ' <br/>')
+        })
+
     </script>
 </body>
 
