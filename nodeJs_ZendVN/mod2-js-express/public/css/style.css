@@ -1,0 +1,14 @@
+#content-img {
+    display: block;
+         margin-left: auto; 
+    margin-right: auto;
+
+    width: 80%;
+    height: 600px;
+    background-image:  url(./../img/panda.jpg);
+    background-size: cover;
+}
+.content {
+    width: 100%;
+   
+}

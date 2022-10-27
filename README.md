@@ -6,9 +6,11 @@ Wellcome to my program
  <p>$ npm install   // nếu chưa có file node_modules</p>
  <p>$ npm install -g nodemon    //cài nodemon</p>
  <p>$ npm start //Run</p>
-
+ <p>$ npm install express-ejs-layouts       // hỗ trợ gom nhỏ code</p>
 # web 
-expressjs.com
+<p>expressjs.com</p>
+<p>express-ejs-layouts</p>
+
 
 # mod2-js-express
 ![<Ảnh mẫu mod2-js-express>](nodeJs_ZendVN/mod2-js-express/public/img/web-mau.jpg)
