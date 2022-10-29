@@ -1,0 +1,38 @@
+body {
+    /* background-color: aqua; */
+}
+
+#wrapper {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+#information {
+    /* border: 1px solid gray; */
+    margin: 10px;
+}
+#txtName, #txtEmail, #txtPhone {
+   margin-right: 20px;
+   padding: 5px 5px ;
+}
+/* #txtName {}
+
+#txtEmail {}
+
+#txtPhone {} */
+
+#listUser {
+    text-align: center;
+}
+.item{
+    border-bottom: 1px solid #d3e1f8;
+    margin-bottom: 5px;
+}
+
+#itemName, #itemEmail, #itemPhone {
+    font-weight: bold;
+}
+#itemName{
+    color: blue;
+}

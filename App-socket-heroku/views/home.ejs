@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App sd Heroku</title>
+
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    hello
+    <div id="wrapper">
+        <div id="information">
+            <input type="text" value="A Van" name="ho ten" id="txtName" placeholder="Name ...">
+            <input type="email" value="Z@gmail.com" name="email" id="txtEmail" placeholder="Email ...">
+            <input type="tel" value="0159357001" name="phone" id="txtPhone" placeholder="Phone ...">
+            <input type="button" value="Register" id="btnRegister">
+        </div>
+        <div id="listUser">
+            <h3>Danh sách học viên</h3>
+
+            <div id="listUser">
+                <div class="item"> id: 1 || <span id="itemName"> Nguyen van A</span> || <span id="itemEmail"> a@gmail.com</span> || <span id="itemPhone"> 0123456789</span></div>
+                <div class="item"> id: 1 || <span id="itemName"> Nguyen van A</span> || <span id="itemEmail"> a@gmail.com</span> || <span id="itemPhone"> 0123456789</span></div>
+                <div class="item"> id: 1 || <span id="itemName"> Nguyen van A</span> || <span id="itemEmail"> a@gmail.com</span> || <span id="itemPhone"> 0123456789</span></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="xuly.js"></script>
+
 </body>
 </html>
