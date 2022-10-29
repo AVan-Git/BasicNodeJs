@@ -12,5 +12,5 @@ Khoa pham : https://www.youtube.com/watch?v=4jmEjnbneK0&list=PLaDCaCbr3vmlmCC84s
 
 ## 
 
-<img src="https://github.com/nguyenvangithub/DemoChat/blob/main/Anh%20minh%20hoa/chat2.png?raw=true" alt="không tồn tại" >
+<img src="" alt="không tồn tại" >
 
