@@ -8,7 +8,7 @@ app.set('views', './views');
 const server = require('http').Server(app);
 const io = require("socket.io")(server);
 
-let port = 8000;
+let port = process.env.PORT || 8000;
 server.listen(port, () => {
     console.log(`Example app listening on port ${port}`, `- http://localhost:${port}/`)
 });

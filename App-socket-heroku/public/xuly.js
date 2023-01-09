@@ -1,5 +1,5 @@
 
-let socket = io('http://localhost:8000')
+let socket = io('http://localhost:8000/')
 
 
 socket.on('server-send-listUser', (data) => {
